@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Brackets</title>
+
+	<style> 
+		body {
+			display: flex;
+			flex-direction: column;
+
+
+
+		}
+		h1 {
+			display:flex;
+			flex-direction: row;
+			justify-content: center;
+
+		}
+
+		main {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+
+		}	
+
+		.section1 , .section2, .section3, .section4{
+			margin:3%;
+			margin-left:-3%;
+		}
+
+
+		.section1 {
+			display: flex;
+			flex-direction: column;
+
+		}
+
+
+		.box {
+			margin:2vh;
+			height:20vh;
+			width:10vw;
+			border:1px solid black;
+			border-radius:9px;
+			display:flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+
+
+
+		}
+
+
+		.team {
+
+			margin-left:5px;
+			padding:12px;
+			margin-top:-3px;
+			font-size: 7px;
+
+			display: flex;
+			flex-direction: column;
+
+
+			}
+
+		.flag {
+			height:24px;		
+			width:24px;
+		}
+
+
+
+
+
+
+
+
+
+
+h1{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  margin-left:-90px;
+  color:red;
+}
+
+
+.round{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width:200px;
+  list-style:none;
+  padding:0;
+}
+  .round .SPACETHIS{ flex-grow:1; }
+  .round .SPACETHIS:first-child,
+  .round .SPACETHIS:last-child
+  { 
+    flex-grow:.5; 
+
+  }
+
+  .round .general-SPACETHIS{
+    flex-grow:1;
+  }
+
+
+
+body{
+  font-family:sans-serif;
+  font-size:small;
+  padding:10px;
+  line-height:1.4em;
+
+}
+
+li.general{
+  padding-left:20px;
+}
+
+  li.general span{
+    float:right;
+    margin-right:5px;
+  }
+
+  li.topsection{ border-bottom:1px solid #aaa; }
+
+  li.general-SPACETHIS{ 
+    border-right:1px solid #aaa;
+    min-height:40px;
+  }
+
+
+
+  li.general-bottom{ 
+    border-top:1px solid #aaa;
+  }
+
+
+
+  .section2 {
+  	 display:flex;
+  flex-direction:row;
+
+  	widtH:50%;
+  }
+
+
+li.general-SPACETHIS1{
+	border-left:1px solid #aaa;
+	min-height:377.69px;
+}
+
+
+
+li.general-SPACETHIS2{
+	border-left:1px solid #aaa;
+	min-height:188.44px;
+}
+
+li.general-SPACETHIS3{
+	min-height:188.44px;
+}
+
+
+
+li.general-SPACETHIS4{
+	border-left:1px solid #aaa;
+
+	min-height:66.53px;
+}
+
+
+li.general-SPACETHIS3{
+	min-height:160px;
+}
+
+li.general-SPACETHIS5{
+	min-height:75.63px;
+}
+
+
+.section3 {
+    display: flex;
+      flex-direction: column;
+margin-top:40px;
+}
+
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+
+	<h1>FIFA 2022 World Cup</h1>
+
+
+	<main> 
+
+
+		<div class="section1"> 
+
+             <div class="oops"> Group A </div>
+
+			<div class="box">  <div class="team"> <img class="flag" src="./qatar.png"> Qatar </div> 
+								<div class="team">  <img class="flag" src="./qatar.png"> Ecuador </div> 
+								<div class="team">  <img class="flag" src="./qatar.png">  Senegal </div> 
+								<div class="team">  <img class="flag" src="./qatar.png">  Netherlands </div> 
+			</div>
+
+                   <div class="oops"> Group C </div>
+
+			<div class="box">  
+					<div class="team"> <img class="flag" src="./images/argentina.png"> Argentina </div> 
+								<div class="team">  <img class="flag" src="./images/argentina.png"> Saudi Arabia </div> 
+								<div class="team">  <img class="flag" src="./images/argentina.png">  Mexico </div> 
+								<div class="team">  <img class="flag" src="./images/argentina.png">  Poland </div> 
+			</div>
+
+                   <div class="oops"> Group E </div>
+
+			<div class="box"> 
+							<div class="team"> <img class="flag" src="./qatar.png"> Spain </div> 
+								<div class="team">  <img class="flag" src="./qatar.png"> Costa Rica </div> 
+								<div class="team">  <img class="flag" src="./qatar.png">  Germany </div> 
+								<div class="team">  <img class="flag" src="./qatar.png">  Japan </div> 
+
+				 </div>
+
+                      <div class="oops"> Group G </div>
+
+			<div class="box"> <div class="team"> <img class="flag" src="./qatar.png"> Brazil </div> 
+								<div class="team">  <img class="flag" src="./qatar.png"> Serbia </div> 
+								<div class="team">  <img class="flag" src="./qatar.png">  Switzerland </div> 
+								<div class="team">  <img class="flag" src="./qatar.png">  Cameroon </div>  </div>
+
+		</div>
+			
+
+
+		<div class="section2"> 
+
+
+  <ul class="round round-2">
+    <li class="SPACETHIS">&nbsp;</li>
+    
+    <li class="general topsection ">1A <span> </span></li>
+    <li class="general general-SPACETHIS">&nbsp;</li>
+    <li class="general general-bottom ">2B<span> </span></li>
+
+    <li class="SPACETHIS">&nbsp;</li>
+    
+    <li class="general topsection ">1C <span></span></li>
+    <li class="general general-SPACETHIS">&nbsp;</li>
+    <li class="general general-bottom ">2D <span></span></li>
+
+    <li class="SPACETHIS">&nbsp;</li>
+    
+    <li class="general topsection ">1E <span></span></li>
+    <li class="general general-SPACETHIS">&nbsp;</li>
+    <li class="general general-bottom ">2F  <span></span></li>
+
+    <li class="SPACETHIS">&nbsp;</li>
+    
+    <li class="general topsection ">1G <span></span></li>
+    <li class="general general-SPACETHIS">&nbsp;</li>
+    <li class="general general-bottom ">2H <span></span></li>
+
+    <li class="SPACETHIS">&nbsp;</li>
+  </ul>
+  <ul class="round round-3">
+    <li class="SPACETHIS">&nbsp;</li>
+    
+    <li class="general topsection "> <span></span></li>
+    <li class="general general-SPACETHIS">&nbsp;</li>
+    <li class="general general-bottom "> <span></span></li>
+
+    <li class="SPACETHIS">&nbsp;</li>
+    
+    <li class="general topsection ">  <span></span></li>
+    <li class="general general-SPACETHIS">&nbsp;</li>
+    <li class="general general-bottom "> <span></span></li>
+
+    <li class="SPACETHIS">&nbsp;</li>
+  </ul>
+  <ul class="round round-4">
+    <li class="SPACETHIS">&nbsp;</li>
+    
+    <li class="general topsection "> <span></span></li>
+    <li class="general general-SPACETHIS">&nbsp;</li>
+    <li class="general general-bottom "> <span></span></li>
+    
+<li class="SPACETHIS">&nbsp;</li>
+
+
+  </ul>   
+
+
+  <ul class="round round-5">
+  	<li class="SPACETHIS"> &nbsp;</li>
+  	  	     <li class="general topsection "> <span></span></li>
+  	  	     <li class="SPACETHIS">&nbsp;</li>
+  </ul>
+
+
+  <ul class="round round-6">
+  	    <li class="general topsection "> <span></span></li>
+    <li class="general general-SPACETHIS1">&nbsp;</li>
+    <li class="general general-bottom "> <span></span></li>
+
+   </ul>
+
+  <ul class="round round-7">
+  	    <li class="general topsection "> <span></span></li>
+    <li class="general general-SPACETHIS2">&nbsp;</li>
+    <li class="general general-bottom "> <span></span></li>
+    <li class="general general-SPACETHIS3">&nbsp;</li>
+
+
+   <li class="general topsection ">  <span></span></li>
+    <li class="general general-SPACETHIS2">&nbsp;</li>
+    <li class="general general-bottom "> <span></span></li>
+   </ul>
+
+
+
+
+
+  <ul class="round round-8">
+	    <li class="general topsection "> <span>1B</span></li>
+    <li class="general general-SPACETHIS4">&nbsp;</li>
+    <li class="general general-bottom "> <span>2A</span></li>
+
+    <li class="general general-SPACETHIS5">&nbsp;</li>
+
+
+    	    <li class="general topsection "> <span>1D</span></li>
+    <li class="general general-SPACETHIS4">&nbsp;</li>
+    <li class="general general-bottom "> <span>2C</span></li>
+
+    <li class="general general-SPACETHIS5">&nbsp;</li>
+
+
+    	    <li class="general topsection "> <span>1F</span></li>
+    <li class="general general-SPACETHIS4">&nbsp;</li>
+    <li class="general general-bottom "> <span>2E</span></li>
+
+    <li class="general general-SPACETHIS5">&nbsp;</li>
+
+    	    <li class="general topsection "> <span>1H</span></li>
+    <li class="general general-SPACETHIS4">&nbsp;</li>
+    <li class="general general-bottom "> <span>2G</span></li>
+
+
+</div>
+
+
+
+
+
+  
+		<div class="section3"> 
+	     <div class="oops"> Group B </div>
+			<div class="box">  <div class="team"> <img class="flag" src="./qatar.png"> England </div> 
+								<div class="team">  <img class="flag" src="./qatar.png"> Wales </div> 
+								<div class="team">  <img class="flag" src="./qatar.png">  USA </div> 
+								<div class="team">  <img class="flag" src="./qatar.png">  Iran </div> 
+			</div>
+
+
+<div class="oops"> Group D </div>
+			<div class="box">  
+					<div class="team"> <img class="flag" src="./images/france.png"> France </div> 
+								<div class="team">  <img class="flag" src="./images/france.png"> Australia  </div> 
+								<div class="team">  <img class="flag" src="./images/france.png">  Denmark </div> 
+								<div class="team">  <img class="flag" src="./images/france.png">  Tunisia </div> 
+			</div>
+
+      <div class="oops"> Group F </div>
+			<div class="box"> 
+							<div class="team"> <img class="flag" src="./qatar.png"> Belgium </div> 
+								<div class="team">  <img class="flag" src="./qatar.png"> Canada </div> 
+								<div class="team">  <img class="flag" src="./qatar.png">  Morocoo </div> 
+								<div class="team">  <img class="flag" src="./qatar.png">  Croatia </div> 
+
+				 </div>
+         <div class="oops"> Group H </div>
+			<div class="box"> <div class="team"> <img class="flag" src="./qatar.png"> Portugal </div> 
+								<div class="team">  <img class="flag" src="./qatar.png"> Ghana </div> 
+								<div class="team">  <img class="flag" src="./qatar.png">  Uruguay </div> 
+								<div class="team">  <img class="flag" src="./qatar.png">  S. Korea </div>  </div>
+
+		</div>
+
+
+
+
+			
+
+
+
+
+
+
+
+	</main>
+
+</body>
+</html>
